@@ -1,0 +1,142 @@
+body{
+  background: -webkit-linear-gradient(left, #4ecdc4, #ffcad4);
+  background: linear-gradient(to right, #4ecdc4, #ffcad4);
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.top-bar th{
+  border-radius: 20%;
+}
+.formstyle {
+  width: 100%;
+  padding: 30px 0;
+  transition: .2s;
+}
+
+.image-prod{
+  width: 200px;
+  height: 300px;
+}
+
+.image{
+    width:25%;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+
+input {
+  margin: 15px 0;
+  font-size: 12px;
+  padding: 10px;
+  width: 250px;
+  border: 1px solid rgba(10, 180, 180, 1);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: rgba(20, 20, 20, .2);
+  color: white;
+  outline: none;
+}
+
+
+.insert{
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20%;
+    
+}
+
+
+.submitbtn {
+  border: 1px solid rgba(10, 180, 180, 1);
+  background-color: rgba(255,255,255,0.3);
+  font-size: 12px;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 50px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  &:hover {
+    background: rgba(20, 20, 20, .8);
+    padding: 10px 80px;
+  }
+}
+
+
+p{
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+
+table{
+  width:100%;
+  table-layout: fixed;
+  cellpadding:0; 
+  cellspacing:0; 
+  border:0;
+  
+}
+
+.bottom-bar th{
+  border-radius: 20%;
+}
+
+thead, .insert{
+  background-color: rgba(255,255,255,0.3);
+ }
+ 
+ 
+ thead{
+     position: sticky;
+ }
+ 
+ 
+ th, .insert{
+  padding: 10px 5px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+th{
+    top: 0;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+
+
+td{
+  padding: 15px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 12px;
+  color: #fff;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.wrapper{
+    height: 10em;
+    position: relative 
+    
+}
+
+
+
