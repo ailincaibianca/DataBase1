@@ -17,7 +17,7 @@
                         <input type="file" name="myimage" placeholder="Your Image">
                     </li>
                     <li>
-                        <input class="submitbtn" type="submit" value="Add new author to database" name='add'>
+                        <input class="submitbtn" type="submit" value="Add new product to database" name='add'>
                     </li>
                 </ul>
             </form>
